@@ -5,7 +5,8 @@ gravity_ = .5;
 acceleration_ = 1;
 friction_ = .3;
 jump_height_ = -10;
-health_ = 5;
+max_health_ = 5;
+health_ = max_health_;
 
 // Map the keys
 keyboard_set_map(ord("W"), vk_up);
@@ -20,3 +21,7 @@ alarm[0] = bullet_cooldown_;
 // Scale variables
 x_scale_ = image_xscale;
 y_scale_ = image_yscale;
+
+// Hide the solids layer
+var solid_layer = layer_get_id("Solids");
+layer_set_visible(solid_layer, debug_mode);
