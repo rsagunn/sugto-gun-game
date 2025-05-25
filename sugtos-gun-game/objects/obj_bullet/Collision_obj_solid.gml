@@ -1,4 +1,2 @@
-/// @description Destroy bullet when collision
+/// @description Destroy the bullet
 instance_destroy();
-
-

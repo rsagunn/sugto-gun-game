@@ -1,4 +1,3 @@
-//move towards teh mouse
-speed = 5;
-direction = point_direction(x, y, mouse_x, mouse_y);
+/// @description Move towards the mouse
+speed = 8;
 depth = -1;
