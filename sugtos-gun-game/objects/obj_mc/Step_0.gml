@@ -40,3 +40,9 @@ if place_meeting(x, y+1, obj_solid) && !place_meeting(x, yprevious+1, obj_solid)
 // Move back to normal scale
 x_scale_ = lerp(x_scale_, image_xscale, .2);
 y_scale_ = lerp(y_scale_, image_yscale, .2);
+
+// Grenade
+keyGrenade = keyboard_check_pressed(ord("E"));
+if(keyGrenade){
+	instance_create_depth(x, y, -100, obj_grenade)
+}
