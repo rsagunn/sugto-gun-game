@@ -8,3 +8,7 @@ if paused_ {
 	draw_set_valign(fa_middle);
 	draw_text(gui_width/2, gui_height/2, "Paused");
 }
+
+draw_set_halign(fa_right);
+draw_text(display_get_gui_width()-6, 4, "Score: " + string(score));
+draw_set_halign(fa_left);
