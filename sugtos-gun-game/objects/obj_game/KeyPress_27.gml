@@ -1,1 +1,1 @@
-event_user(TOGGLE_PAUSE);
+event_user(toggle_pause);

@@ -2,7 +2,7 @@
 speed = 10;
 
 // Distance grenade travels
-distance = 5;
+distance = 3;
 
 // Move towards
 move_towards_point(mouse_x, mouse_y, 10)
