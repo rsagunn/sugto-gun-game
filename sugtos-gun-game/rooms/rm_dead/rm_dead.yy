@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room3",
+  "name": "rm_dead",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -35,9 +35,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_3CD0FDB7","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_4DC773AC","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_777B0514","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_3CD0FDB7","path":"rooms/rm_dead/rm_dead.yy",},
+    {"name":"inst_4DC773AC","path":"rooms/rm_dead/rm_dead.yy",},
+    {"name":"inst_777B0514","path":"rooms/rm_dead/rm_dead.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

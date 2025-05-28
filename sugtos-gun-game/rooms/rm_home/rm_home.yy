@@ -21,7 +21,7 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_116DEA2F","properties":[],"isDnd":false,"objectId":{"name":"obj_quitbtn","path":"objects/obj_quitbtn/obj_quitbtn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.3630137,"scaleY":2.3630137,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.00006,"y":576.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7533DC69","properties":[],"isDnd":false,"objectId":{"name":"obj_startbtn","path":"objects/obj_startbtn/obj_startbtn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.3630137,"scaleY":2.3333333,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":446.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5D62C5D","properties":[],"isDnd":false,"objectId":{"name":"obj_homebtn","path":"objects/obj_homebtn/obj_homebtn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.3630137,"scaleY":2.3333333,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":445.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4DD5E53D","spriteId":{"name":"spr_pooh","path":"sprites/spr_pooh/spr_pooh.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.378589,"scaleY":1.4258499,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":468.0,"y":101.00006,},
@@ -33,7 +33,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_116DEA2F","path":"rooms/rm_home/rm_home.yy",},
-    {"name":"inst_7533DC69","path":"rooms/rm_home/rm_home.yy",},
+    {"name":"inst_5D62C5D","path":"rooms/rm_home/rm_home.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
