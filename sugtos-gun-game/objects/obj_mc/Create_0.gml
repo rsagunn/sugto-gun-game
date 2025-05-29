@@ -8,6 +8,12 @@ jump_height_ = -10;
 max_health_ = 5;
 health_ = max_health_;
 invincible_ = false;
+dash_speed = 8; // How fast the dash is
+dash_duration = 15; // How many frames it lasts
+dash_timer = 0; // Counts down while dashing
+dashing = false; // Whether player is currently dashing
+dash_cooldown = 60; // Frames between dashes
+dash_timer = -dash_cooldown; // Ensures cooldown starts negative
 
 // Map the keys
 keyboard_set_map(ord("W"), vk_up);

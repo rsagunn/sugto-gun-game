@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"spr_bulletenemy","path":"sprites/spr_bulletenemy/spr_bulletenemy.yy",},"order":2,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":4,},
+    {"id":{"name":"s_bgmusic","path":"sounds/s_bgmusic/s_bgmusic.yy",},"order":5,},
     {"id":{"name":"spr_buildings","path":"sprites/spr_buildings/spr_buildings.yy",},"order":1,},
     {"id":{"name":"spr_grnexplode","path":"sprites/spr_grnexplode/spr_grnexplode.yy",},"order":5,},
     {"id":{"name":"spr_skiptut","path":"sprites/spr_skiptut/spr_skiptut.yy",},"order":17,},

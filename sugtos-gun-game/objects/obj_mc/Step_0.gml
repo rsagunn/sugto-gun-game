@@ -17,6 +17,23 @@ if hinput != 0 {
 	image_index = 0;
 }
 
+if dashing {
+    speed_[h] = dash_speed * (keyboard_check(vk_right) - keyboard_check(vk_left));
+    dash_timer -= 1;
+    if dash_timer <= 0 {
+        dashing = false;
+        dash_timer = -dash_cooldown; // Start cooldown after dash ends
+    }
+} else {
+    dash_timer += 1; // Counts up toward 0 to allow next dash
+}
+
+
+if keyboard_check_pressed(ord("Q")) && dash_timer <= 0 {
+    dashing = true;
+    dash_timer = dash_duration; // Dash lasts for `dash_duration` frames
+}
+
 if !place_meeting(x, y+1, obj_solid) {
 	speed_[v] += gravity_;
 	image_speed = 0;
@@ -28,6 +45,13 @@ if !place_meeting(x, y+1, obj_solid) {
 		y_scale_ = image_yscale*1.4;
 	}
 }
+
+
+if keyboard_check_pressed(ord("Q")) && dash_timer == 0 {
+    dashing = true;
+    dash_timer = dash_duration;
+}
+
 
 move(speed_, 0);
 

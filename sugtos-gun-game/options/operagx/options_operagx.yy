@@ -2,8 +2,8 @@
   "resourceType": "GMOperaGXOptions",
   "resourceVersion": "1.0",
   "name": "operagx",
-  "option_operagx_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.1",
+  "option_operagx_version": "1.0.0.1",
+  "option_operagx_next_version": "1.0.0.2",
   "option_operagx_game_name": "Sugtos Gun Game",
   "option_operagx_interpolate_pixels": true,
   "option_operagx_scale": 0,
@@ -14,5 +14,5 @@
   "option_operagx_team_id": "5c796796-647a-46bb-8681-b00dea3532f1",
   "option_operagx_editUrl": "https://dev.gx.games/games/b9f52ab0-c9b4-47e6-9be0-ba6900c79e53/details",
   "option_operagx_internalShareUrl": "https://gx.games/games/94ihv5/sugtos-gun-game/tracks/7846c39e-cdfa-41cc-83e7-68490f158f73/",
-  "option_operagx_publicShareUrl": "",
+  "option_operagx_publicShareUrl": "https://gx.games/games/94ihv5/sugtos-gun-game/",
 }
