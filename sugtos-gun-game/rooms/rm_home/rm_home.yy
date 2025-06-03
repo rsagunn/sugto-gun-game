@@ -57,7 +57,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "rm_splashscreens",
+    "path": "folders/Rooms/rm_splashscreens.yy",
   },
 }
