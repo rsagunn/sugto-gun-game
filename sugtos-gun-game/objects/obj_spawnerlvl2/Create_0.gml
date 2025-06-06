@@ -1,3 +1,3 @@
 wave_ = 1; // Starting wave count
-max_waves = 5; // Total waves before transitioning to the next room
+max_waves = 7; // Total waves before transitioning to the next room
 
