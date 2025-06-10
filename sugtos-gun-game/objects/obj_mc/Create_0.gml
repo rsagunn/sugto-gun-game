@@ -35,3 +35,5 @@ y_scale_ = image_yscale;
 // Hide the solids layer
 var solid_layer = layer_get_id("blocks");
 layer_set_visible(solid_layer, debug_mode);
+
+state = "idle"; // Default state
