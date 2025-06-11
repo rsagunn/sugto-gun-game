@@ -35,7 +35,5 @@ y_scale_ = image_yscale;
 // Hide the solids layer
 var solid_layer = layer_get_id("blocks");
 layer_set_visible(solid_layer, debug_mode);
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 0717670 (Added rooms detail)
+state = "idle"; // Default state
