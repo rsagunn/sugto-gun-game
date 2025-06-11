@@ -1,1 +1,1 @@
-room_goto(rm_lvlinf);
+room_goto(rm_1);

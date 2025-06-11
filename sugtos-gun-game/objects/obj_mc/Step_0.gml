@@ -77,5 +77,3 @@ keyGrenade = keyboard_check_pressed(ord("E"));
 if(keyGrenade){
 	instance_create_depth(x, y, -100, obj_grenade)
 }
-
-

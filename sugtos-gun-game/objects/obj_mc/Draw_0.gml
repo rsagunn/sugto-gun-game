@@ -10,8 +10,7 @@ if interval_is_off(alarm[1], 16) {
 }
 
 // Draw the player
-draw_sprite_ext(sprite_index, image_index, x, ceil(y), x_scale_*flipped, y_scale_, 0, image_blend, image_alpha);
-
+draw_sprite_ext(spr_mcrun, image_index, x, ceil(y), x_scale_*flipped, y_scale_, 0, image_blend, image_alpha);
 // Draw the gun
 draw_sprite_ext(spr_gun, 0, x-4*flipped, y-sprite_height/20, 1, flipped, dir, image_blend, image_alpha);
 

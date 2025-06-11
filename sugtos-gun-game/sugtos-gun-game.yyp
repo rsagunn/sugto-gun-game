@@ -11,7 +11,6 @@
     {"id":{"name":"spr_lvl2","path":"sprites/spr_lvl2/spr_lvl2.yy",},"order":4,},
     {"id":{"name":"spr_grnexplode","path":"sprites/spr_grnexplode/spr_grnexplode.yy",},"order":5,},
     {"id":{"name":"spr_skiptut","path":"sprites/spr_skiptut/spr_skiptut.yy",},"order":17,},
-    {"id":{"name":"rm_gamecomplete","path":"rooms/rm_gamecomplete/rm_gamecomplete.yy",},"order":3,},
     {"id":{"name":"obj_homebtn","path":"objects/obj_homebtn/obj_homebtn.yy",},"order":20,},
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"order":7,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
@@ -21,9 +20,9 @@
     {"id":{"name":"obj_spawnerinf","path":"objects/obj_spawnerinf/obj_spawnerinf.yy",},"order":2,},
     {"id":{"name":"obj_mc","path":"objects/obj_mc/obj_mc.yy",},"order":0,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":3,},
-    {"id":{"name":"spr_gamecomplete","path":"sprites/spr_gamecomplete/spr_gamecomplete.yy",},"order":19,},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},"order":4,},
     {"id":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},"order":4,},
+    {"id":{"name":"rm_lvlcomplete","path":"rooms/rm_lvlcomplete/rm_lvlcomplete.yy",},"order":3,},
     {"id":{"name":"obj_enemy_bullet_hit","path":"objects/obj_enemy_bullet_hit/obj_enemy_bullet_hit.yy",},"order":3,},
     {"id":{"name":"obj_grenade","path":"objects/obj_grenade/obj_grenade.yy",},"order":5,},
     {"id":{"name":"obj_spawnerlvl1","path":"objects/obj_spawnerlvl1/obj_spawnerlvl1.yy",},"order":0,},
@@ -47,7 +46,11 @@
     {"id":{"name":"spr_props","path":"sprites/spr_props/spr_props.yy",},"order":0,},
     {"id":{"name":"spr_bullet_hit","path":"sprites/spr_bullet_hit/spr_bullet_hit.yy",},"order":1,},
     {"id":{"name":"t_buildings","path":"tilesets/t_buildings/t_buildings.yy",},"order":2,},
+<<<<<<< HEAD
     {"id":{"name":"obj_strtbtn","path":"objects/obj_strtbtn/obj_strtbtn.yy",},"order":22,},
+=======
+    {"id":{"name":"obj_skiptut","path":"objects/obj_skiptut/obj_skiptut.yy",},"order":18,},
+>>>>>>> parent of 0717670 (Added rooms detail)
     {"id":{"name":"move","path":"scripts/move/move.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"enemy_fire_bullet","path":"scripts/enemy_fire_bullet/enemy_fire_bullet.yy",},"order":3,},
@@ -70,7 +73,6 @@
     {"id":{"name":"spr_botwdeath","path":"sprites/spr_botwdeath/spr_botwdeath.yy",},"order":12,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":0,},
     {"id":{"name":"spr_mcrun","path":"sprites/spr_mcrun/spr_mcrun.yy",},"order":1,},
-    {"id":{"name":"spr_tut2","path":"sprites/spr_tut2/spr_tut2.yy",},"order":20,},
     {"id":{"name":"spr_lvl3","path":"sprites/spr_lvl3/spr_lvl3.yy",},"order":3,},
     {"id":{"name":"s_shot","path":"sounds/s_shot/s_shot.yy",},"order":0,},
     {"id":{"name":"spr_grenade","path":"sprites/spr_grenade/spr_grenade.yy",},"order":4,},
@@ -110,12 +112,21 @@
     {"roomId":{"name":"rm_tut","path":"rooms/rm_tut/rm_tut.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
+<<<<<<< HEAD
     {"roomId":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},},
     {"roomId":{"name":"rm_4","path":"rooms/rm_4/rm_4.yy",},},
     {"roomId":{"name":"rm_5","path":"rooms/rm_5/rm_5.yy",},},
     {"roomId":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
     {"roomId":{"name":"rm_lvlinf","path":"rooms/rm_lvlinf/rm_lvlinf.yy",},},
     {"roomId":{"name":"rm_gamecomplete","path":"rooms/rm_gamecomplete/rm_gamecomplete.yy",},},
+=======
+    {"roomId":{"name":"rm_lvlinf","path":"rooms/rm_lvlinf/rm_lvlinf.yy",},},
+    {"roomId":{"name":"rm_lvlcomplete","path":"rooms/rm_lvlcomplete/rm_lvlcomplete.yy",},},
+    {"roomId":{"name":"rm_dead","path":"rooms/rm_dead/rm_dead.yy",},},
+    {"roomId":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},},
+    {"roomId":{"name":"rm_4","path":"rooms/rm_4/rm_4.yy",},},
+    {"roomId":{"name":"rm_5","path":"rooms/rm_5/rm_5.yy",},},
+>>>>>>> parent of 0717670 (Added rooms detail)
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -138,10 +149,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_enemy","folderPath":"folders/Sprites/spr_enemy.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_mc","folderPath":"folders/Sprites/spr_mc.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_tileset","folderPath":"folders/Sprites/spr_tileset.yy","order":0,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_titles","folderPath":"folders/Sprites/spr_titles.yy","order":18,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_weapons","folderPath":"folders/Sprites/spr_weapons.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"spr_titles","folderPath":"folders/Sprites/spr_titles.yy","order":18,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
